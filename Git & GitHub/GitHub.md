@@ -27,7 +27,7 @@
 
 | Process | Description |  
 | -- | -- |  
-| Enable the soft wrapping | ![GitHub Editor Soft Wrap](https://github.com/MrMikey59/00---Projects/blob/master/Git%20%26%20GitHub/GitHub%2001.png |  
+| Enable the soft wrapping | ![GitHub Editor Soft Wrap](GitHub%2001.png) |  
 | Go to GitHub WebDev | Open GitHub, Select a Repository, Select a Code file, in the view page type `.` to open WebDev. |  
 | Open Git Hub WebDev | Use the URL `https://github.dev/<UserName>/<ReposName>/` for example: `https://github.dev/MikeMyers59/MikeMyers59/` |  
 | Open a Repository | Use the URL `https://github.com/<UserName>/<RepositoryName>/` |  

@@ -2,9 +2,9 @@
 
 Git Bash is an emulator that allows you to interact with Git just like you would on a Linux or Mac terminal. 
 
-git Process Diagram: ![git Process Diagram](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/git%20Block%20Diagram.png)  
+git Process Diagram: ![git Process Diagram](git%20Block%20Diagram.png)  
 
-Select Soft Wrap:![GitHub 01](https://github.com/MrMikey59/00---Projects/blob/master/Git%20%26%20GitHub/GitHub%2001.png)  
+Select Soft Wrap:![GitHub 01](GitHub%2001.png)  
 
 #### Resources related to GitHub:
 
@@ -29,10 +29,10 @@ install-module posh-git
 ```
 
 ### Sitewide Keyboard Shortcuts
-![Sitewide Shortcuts](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/GitHub%20Sitewide%20Shortcuts.png)
+![Sitewide Shortcuts](GitHub%20Sitewide%20Shortcuts.png)
 
 ### Repository Shortcuts
-![Repository Shortcuts](https://github.com/MrMikey59/00---Projects/blob/master/00Pictures/GitHub%20Repository%20Shortcuts.png)
+![Repository Shortcuts](GitHub%20Repository%20Shortcuts.png)
 
 ### Create a Folder in GitHub
 1. Click on Create new File.
@@ -49,5 +49,4 @@ install-module posh-git
 4. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file. You can attribute the commit to more than one author in the commit message. For more information, see "Creating a commit with multiple co-authors."
 5. Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is the default branch, you should choose to create a new branch for your commit and then create a pull request. For more information, see "Creating a new pull request."
 6. Click Propose file change or Commit changes.
-
 
