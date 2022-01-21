@@ -20,7 +20,7 @@ Options for the command line will differ based on the operating system you use.
 
 - [ASCIINEMA](https://asciinema.org/) – record your terminal sessions  
 
-- [Bro pages](http://bropages.org/) -   are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands. The examples are submitted by the user base, and can be voted up or down; the best entries are what people see first when they look up a command.
+- [Bro pages](http://bropages.org/) -   are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands. The examples are submitted by the user base, and can be voted up or down; the best entries are what people see first when they look up a command.  
 
 - [Cheat](https://github.com/cheat/cheat) - allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 
