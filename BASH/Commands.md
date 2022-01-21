@@ -21,7 +21,7 @@ Typical Bash Prompt: `$`
 | nano \<FileName> | Open file in Nano editor |  
 | rm -f \<Path> | remove directory |  
 | rm \<FileName> | Remove File(s) |  
-| SSH-KeyGen | Create a Secure Shell (SSH) Key <BR> ![SSH-KeyGen](https://github.com/MrMikey59/00---Projects/blob/master/OS%20Scripting/BASH/SSH-KEYGEN.png) |  .
+| SSH-KeyGen | Create a Secure Shell (SSH) Key <BR> ![SSH-KeyGen](SSH-KEYGEN.png) |  .
 | source | `source ~/FileName---` |  
 | tee <FileName> | used with pipe to send data to the screen and to a file <BR> `<command> \| tee /path/to/file` <BR> -a for append mode |  
 | touch \<FileName> | Create a new file <BR> **Note**: Use . in front of file name to create a hidden file | 
