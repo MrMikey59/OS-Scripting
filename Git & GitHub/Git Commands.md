@@ -56,7 +56,7 @@ Example Repsoitories to Check Out
 | git log \<CommitID> | Show the commit details |  
 | git log --graph | Show commits in graph form |  
 | git merge \<BranchName> | Merge the branch into the current head bracnh |  
-| git pull | Copy any updates from the GitHub repository to the local repository |  
+| [git pull](https://help.github.com/articles/using-pull-requests/) | Copy any updates from the GitHub repository to the local repository |  
 | git push --set-upstream origin \<BranchName> | Send your new branch to GitHub |  
 | git push -u origin main | Copy local repository files/folders to GitHub repository |  
 | git push origin :\<BranchName> | Delete branch from GitHub repository |  
