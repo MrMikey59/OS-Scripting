@@ -2,6 +2,8 @@
 
 Options for the command line will differ based on the operating system you use.  
 
+**Convention**: DOS & other Scripting Command key words are listed in uppercase. Switches are case sensitive.
+
 **NOTE: 💻 = comes preinstalled on the operating system.**  
 
 # Operating Systems (OS)  
@@ -9,13 +11,20 @@ Options for the command line will differ based on the operating system you use.
 ### Android
 
 ### Linux
-- 
+
 ### Windows
 - [Powershell](https://docs.microsoft.com/powershell/scripting/overview?view=powershell-7?WT.mc_id=academic-13441-cxa) 💻  
 - [Command Line](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands?WT.mc_id=academic-13441-cxa) (also known as CMD) 💻  
 - [Windows Terminal](https://docs.microsoft.com/windows/terminal/?WT.mc_id=academic-13441-cxa)  
 - [mintty](https://mintty.github.io/)  
-- [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻  
+- [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻 
+- [nullsoft scriptable install system (NSIS)](http://nsis.sourceforge.net/Download) - a professional open source system to create Windows installers 
+
+#### Folder Usage
+| Folder | Description |  
+| --- | --- |  
+|`../`|Parent Directory – moves up one level then traverses the folders.|  
+|`./`|Current “root” directory – traverses folders from this point|  
 
 # Popular Command Line Tools
 - [Git](https://git-scm.com/) (💻 on most operating systems)  
