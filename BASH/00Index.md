@@ -31,6 +31,11 @@ false ; echo "This will always run"
 ```
 
 ## Aliases
+As you can imagine it can become tiresome typing long commands that involve many flags or verbose options. Nevertheless, most shells support **aliasing**. For instance, an alias in bash has the following structure (note there is no space around the `=` sign):
+```bash
+alias alias_name="command_to_alias"
+```
+
 1. Create an alias `dc` that resolves to `cd` for when you type it wrongly.
 2.  Run `history | awk '{$1="";print substr($0,2)}' | sort | uniq -c | sort -n | tail -n 10`  to get your top 10 most used commands and consider writing shorter aliases for them. Note: this works for Bash; if you're using ZSH, use `history 1` instead of just `history`.
 
