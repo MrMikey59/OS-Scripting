@@ -9,6 +9,11 @@
 
 Viewscreen is GitHub's internal file rendering service.
 
+# GitHub  Alternate Sources
+- [Codespaces](https://github.com/features/codespaces)  
+- [GitHub Desktop](https://desktop.github.com/)  
+- [GitHub Lab (Training)](https://lab.github.com/)
+ 
 ## Folders Idnetified  
 Regarding programs that you execute in your terminal, they are all found in the directories listed in your PATH environment variable and you can use the which command (or the type command) to check where your shell is finding a specific program. In general, there are some conventions about where specific types of files live. Here are some of the ones we talked about, check the Filesystem, Hierarchy Standard for a more comprehensive list.    
     `/bin` - Essential command binaries  

@@ -7,6 +7,10 @@ Options for the command line will differ based on the operating system you use.
 **NOTE: 💻 = comes preinstalled on the operating system.**  
 
 # Operating Systems (OS)  
+- [fswatch: file change monitor](https://github.com/emcrisostomo/fswatch)
+- [Hacker](https://en.wikipedia.org/wiki/Hacker_culture)
+- [Hacker Tools](https://en.wikipedia.org/wiki/Security_hacker)
+- [Regular Expressions](https://regexone.com/)
 
 ### Android
 
