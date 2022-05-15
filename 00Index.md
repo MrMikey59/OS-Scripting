@@ -12,6 +12,45 @@ Options for the command line will differ based on the operating system you use.
 - [Hacker Tools](https://en.wikipedia.org/wiki/Security_hacker)
 - [Regular Expressions](https://regexone.com/)
 
+Some good resources to learn about OSs:
+
+- [MIT's 6.828 class](https://pdos.csail.mit.edu/6.828/) - Graduate level class on Operating System Engineering. Class materials are publicly available.
+- Modern Operating Systems (4th ed) - by Andrew S. Tanenbaum is a good overview of many of the mentioned concepts.
+- The Design and Implementation of the FreeBSD Operating System - A good resource about the FreeBSD OS (note that this is not Linux). 
+- Other guides like [Writing an OS in Rust](https://os.phil-opp.com/) where people implement a kernel step by step in various languages, mostly for teaching purposes. 
+
+#### Common command-line flags/patterns
+
+Command-line tools vary a lot, and you will often want to check out
+their `man` pages before using them. They often share some common
+features though that can be good to be aware of:
+
+ - Most tools support some kind of `--help` flag to display brief usage
+   instructions for the tool.
+ - Many tools that can cause irrevocable change support the notion of a
+   "dry run" in which they only print what they _would have done_, but
+   do not actually perform the change. Similarly, they often have an
+   "interactive" flag that will prompt you for each destructive action.
+ - You can usually use `--version` or `-V` to have the program print its
+   own version (handy for reporting bugs!).
+ - Almost all tools have a `--verbose` or `-v` flag to produce more
+   verbose output. You can usually include the flag multiple times
+   (`-vvv`) to get _more_ verbose output, which can be handy for
+   debugging. Similarly, many tools have a `--quiet` flag for making it
+   only print something on error.
+ - In many tools, `-` in place of a file name means "standard input" or
+   "standard output", depending on the argument.
+ - Possibly destructive tools are generally not recursive by default,
+   but support a "recursive" flag (often `-r`) to make them recurse.
+ - Sometimes, you want to pass something that _looks_ like a flag as a
+   normal argument. For example, imagine you wanted to remove a file
+   called `-r`. Or you want to run one program "through" another, like
+   `ssh machine foo`, and you want to pass a flag to the "inner" program
+   (`foo`). The special argument `--` makes a program _stop_ processing
+   flags and options (things starting with `-`) in what follows, letting
+   you pass things that look like flags without them being interpreted
+   as such: `rm -- -r` or `ssh machine --for-ssh -- foo --for-foo`.
+   
 ### Android
 
 ### Linux

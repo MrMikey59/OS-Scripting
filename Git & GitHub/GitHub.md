@@ -1,4 +1,10 @@
-# GitHub Version Control System
+# GitHub Version Control System (VCS)
+
+[GitHub](https://github.com/) is one of the most popular platforms for
+open-source software development. Many programming tools are available:
+
+- [Hammerspoon](https://github.com/Hammerspoon/hammerspoon)
+- [vim](https://github.com/vim/vim) 
 
 - GitHub can display several common image formats, including PNG, JPG, GIF, PSD, and SVG.
 - GitHub supports rendering tabular data in the form of CSV (comma-separated) values and TSV (tab-separated values) files.
@@ -6,6 +12,26 @@
 - GitHub supports rendering of prose documents in the form of Markdown, AsciiDoc, Textile, ReStructuredText,  Rdoc, Org, Creole, MediaWiki, or Pod.
 - GitHub has started naming the default branch main instead of master to migrate away from biased terminology (more details available here).  
 - GitHub allows you to link multiple email addresses to your account. 
+
+There are two primary ways in which people contribute to projects on GitHub:
+
+- Creating an [issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue).
+This can be used to report bugs or request a new feature. Neither of these
+involves reading or writing code, so it can be pretty lightweight to do.
+High-quality bug reports can be extremely valuable to developers. Commenting on
+existing discussions can be helpful too.
+- Contribute code through a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+This is generally more involved than creating an issue. You can
+[fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+a repository on GitHub, clone your fork, create a new branch, make some changes
+(e.g. fix a bug or implement a feature), push the branch, and then [create a
+pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+After this, there will generally be some back-and-forth with the project
+maintainers, who will give you feedback on your patch. Finally, if all goes
+well, your patch will be merged into the upstream repository. Often times,
+larger projects will have a contributing guide, tag beginner-friendly issues,
+and some even have mentorship programs to help first-time contributors become
+familiar with the project.
 
 Viewscreen is GitHub's internal file rendering service.
 
