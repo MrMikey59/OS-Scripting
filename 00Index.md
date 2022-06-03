@@ -11,6 +11,8 @@ Options for the command line will differ based on the operating system you use.
 - [Hacker](https://en.wikipedia.org/wiki/Hacker_culture)
 - [Hacker Tools](https://en.wikipedia.org/wiki/Security_hacker)
 - [Regular Expressions](https://regexone.com/)
+- Fetching HTML data: [`pup`](https://github.com/EricChiang/pup)
+- Fetching JSON: [`jq`](https://stedolan.github.io/jq/)
 
 Some good resources to learn about OSs:
 
